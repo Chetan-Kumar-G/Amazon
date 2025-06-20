@@ -1,0 +1,41 @@
+.signin-hover-button{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.signin-hover-button-inner{
+    background-color: rgb(255, 225, 0);
+    width: 150px;
+    border: none;
+    height:29px;
+    border-radius: 14px;
+    font-size: 1rem;
+    margin-bottom: 12px;
+    padding: 1px 6px;
+    cursor: pointer;
+}
+.signin-hover-details{
+    width:100%;
+    font-size: 0.85rem;
+    text-align: center;
+}
+
+.signin-hover a{
+    display: block;
+}
+
+.signin-hover ul{
+    width: 270px;
+    padding: 0px;
+    line-height: 25px;
+    
+}
+
+.signin-hover{
+    display: flex;
+    background-color: azure;
+    width: 550px;
+    flex-wrap: wrap;
+}

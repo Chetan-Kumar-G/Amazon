@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+
+}
+.page{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 348px;
+    position:relative;
+    margin: auto;
+    padding-top:20px;
+
+}
+.nav-logo{
+    height: 31px;
+    width:103px;
+
+}
+
+.logo{
+    background-image: url("logo-2.PNG");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 31px;
+    width:100%;
+    text-align: center;
+
+}
+
+.signin{
+    width:348px;
+    height:355px;
+    border:1px solid rgb(210, 208, 208);
+    border-radius:10px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+
+.first{
+    font-weight: 500;
+    font-size: 28px;
+    margin-bottom: 24px;
+}
+
+.mail{
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.enter{
+    border-radius: 4px;
+    width: 296.4px;
+    height:31px;
+    border: 2px solid rgb(210, 208, 208) ;
+    margin-bottom:10px ;
+    box-sizing: border-box;
+}
+
+.continue{
+    width:294px;
+    background-color: rgb(255, 225, 0);
+    border: none;
+    height:29px;
+    border-radius: 14px;
+    font-size: 1rem;
+    margin-bottom: 12px;
+    padding: 1px 6px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+.continue:hover{
+    background-color: rgb(255, 174, 0);
+}
+
+.condition{
+    font-size: 0.8rem;
+    width: 296.4px;
+    
+}
+
+a{
+    color: rgb(11, 142, 120);
+}
+
+.help{
+
+    margin-top:20px;
+    padding-bottom: 22px;
+    border-bottom: 1px solid rgb(199, 196, 196);
+    cursor: pointer;
+}
+
+span{
+    color: rgb(11, 142, 120);
+    font-size: .95rem;
+    font-weight: 500;
+    
+}
+
+.details{
+    line-height: 25px;
+    padding-top: 18px;
+    font-weight: 700;
+
+}
+
+.shop{
+    color: rgb(11, 142, 120);
+    font-size: .95rem;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+
+.create_new{
+    font-size:0.85rem;
+    width:348px;
+    height:29px;
+    border-radius: 15px;
+    border: 1px solid rgb(199, 196, 196);
+    background-color: white;
+    cursor: pointer;
+}
+
+.create{
+    position:relative;
+    margin-top: 30px;
+    padding-top: 15px;
+    border-top: 1px solid rgb(199, 196, 196);
+}
+
+.new_to{
+    position:absolute;
+    top:-7px;
+    left:120px;
+    background-color: white;
+    padding-left: 2px;
+    padding-right: 2px;
+    font-size:0.8rem;
+    color: rgb(143, 141, 141);
+}
+
+.bottom{
+    width:100vw;
+    height:100px;
+    margin-top: 30px;
+    border-top: 1px solid rgb(199, 196, 196);
+    padding:25px;
+    text-align: center;
+    line-height: 25px;
+    color:rgb(69, 69, 69) ;
+}
+
+
+.bottom pre{
+    color: rgb(11, 142, 120);
+    cursor:pointer;
+}
+
